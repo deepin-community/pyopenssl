@@ -1,0 +1,9 @@
+Document: python-openssl-manual
+Title: pyOpenSSL’s documentation
+Author: Jean-Paul Calderone
+Abstract: This module is a rather thin wrapper around (a subset of) the OpenSSL library. With thin wrapper I mean that a lot of the  object methods do nothing more than calling a corresponding function in the OpenSSL library.
+Section: Programming
+
+Format: HTML
+Index: /usr/share/doc/python-openssl-doc/html/index.html
+Files: /usr/share/doc/python-openssl-doc/html/*
