@@ -1,15 +1,11 @@
-From: SVN-Git Migration <python-modules-team@lists.alioth.debian.org>
-Date: Thu, 8 Oct 2015 10:47:52 -0700
-Subject: disable test_set_default_verify_paths since it tries to access the
- web
-
+Description: disable test_set requiring network access
+Author: Sandro Tosi <morph@debian.org>
+Last-Update: 2023-10-08
 ---
- tests/test_ssl.py | 30 ++++++++++++++++--------------
- 1 file changed, 16 insertions(+), 14 deletions(-)
-
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/tests/test_ssl.py
 +++ b/tests/test_ssl.py
-@@ -1252,21 +1252,22 @@ class TestContext(object):
+@@ -1264,21 +1264,22 @@
          # internet which has such a certificate.  Connecting to the network
          # in a unit test is bad, but it's the only way I can think of to
          # really test this. -exarkun
