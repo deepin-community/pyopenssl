@@ -1,3 +1,11 @@
+pyopenssl (23.2.0-1deepin1) unstable; urgency=medium
+
+  * Apply two patches to address CVE-2026-27448 and CVE-2026-27459:
+    - 0003-Handle-exceptions-in-set_tlsext_servername_callback-.patch
+    - 0004-Fix-buffer-overflow-in-DTLS-cookie-generation-callba.patch
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 25 Mar 2026 17:28:18 +0800
+
 pyopenssl (23.2.0-1) unstable; urgency=medium
 
   * Team upload.
